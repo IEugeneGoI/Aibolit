@@ -1,0 +1,9 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+    <linearGradient id="brand-gradient">
+        <stop offset="0%" stop-color="#F8ED34" />
+        <stop offset="50%" stop-color="#EA118D" />
+        <stop offset="100%" stop-color="#2E368F" />
+    </linearGradient>
+</defs>
+</svg>
