@@ -1,25 +1,25 @@
 /*FONTS===================================================================================*/
 @font-face {
   font-family: 'Futura New';
-  src: url("../fonts/FuturaNewBook-Reg.eot");
-  src: local("../fonts/Futura New Book Reg"), local("../fonts/FuturaNewBook-Reg"), url("../fonts/FuturaNewBook-Reg.eot?#iefix") format("embedded-opentype"), url("../fonts/FuturaNewBook-Reg.woff2") format("woff2"), url("../fonts/FuturaNewBook-Reg.woff") format("woff"), url("../fonts/FuturaNewBook-Reg.ttf") format("truetype");
+  src: url("../../fonts/FuturaNewBook-Reg.eot");
+  src: local("../../fonts/Futura New Book Reg"), local("../../fonts/FuturaNewBook-Reg"), url("../../fonts/FuturaNewBook-Reg.eot?#iefix") format("embedded-opentype"), url("../../fonts/FuturaNewBook-Reg.woff2") format("woff2"), url("../../fonts/FuturaNewBook-Reg.woff") format("woff"), url("../../fonts/FuturaNewBook-Reg.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: 'Futura New';
-  src: url("../fonts/FuturaNewBold-Reg.eot");
-  src: local("../fonts/Futura New Bold Reg"), local("../fonts/FuturaNewBold-Reg"), url("../fonts/FuturaNewBold-Reg.eot?#iefix") format("embedded-opentype"), url("../fonts/FuturaNewBold-Reg.woff2") format("woff2"), url("../fonts/FuturaNewBold-Reg.woff") format("woff"), url("../fonts/FuturaNewBold-Reg.ttf") format("truetype");
+  src: url("../../fonts/FuturaNewBold-Reg.eot");
+  src: local("../../fonts/Futura New Bold Reg"), local("../../fonts/FuturaNewBold-Reg"), url("../../fonts/FuturaNewBold-Reg.eot?#iefix") format("embedded-opentype"), url("../../fonts/FuturaNewBold-Reg.woff2") format("woff2"), url("../../fonts/FuturaNewBold-Reg.woff") format("woff"), url("../../fonts/FuturaNewBold-Reg.ttf") format("truetype");
   font-weight: bold;
   font-style: normal; }
 @font-face {
   font-family: 'SchoolBook';
-  src: url("../fonts/TeXGyreSchola-Bold.woff2") format("woff2"), url("../fonts/TeXGyreSchola-Bold.woff") format("woff");
+  src: url("../../fonts/TeXGyreSchola-Bold.woff2") format("woff2"), url("../../fonts/TeXGyreSchola-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap; }
 @font-face {
   font-family: 'SchoolBook';
-  src: url("../fonts/TeXGyreSchola-Regular.woff2") format("woff2"), url("../fonts/TeXGyreSchola-Regular.woff") format("woff");
+  src: url("../../fonts/TeXGyreSchola-Regular.woff2") format("woff2"), url("../../fonts/TeXGyreSchola-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap; }
@@ -215,7 +215,7 @@ p {
         padding-left: 20px; }
         .record .record__inner .record__back-to-main a::before {
           display: block;
-          content: url("/img/company/Path.png");
+          content: url("../../img/company/Path.png");
           width: 9px;
           height: 14px;
           transform: rotate(180deg);

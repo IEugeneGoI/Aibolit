@@ -262,14 +262,12 @@ p {
 /* MAIN===============================================================================*/
 
 .main {    
+    background-color: $White;
     /* INTRO===============================================================================*/
 
     .intro {
         width: 100%;        
         padding: 65px 0 80px;
-        /*@media screen and (max-width: 991px) {
-            padding-top: 280px;
-        }*/
 
         .wrapper__inner {
             padding-left: 20px;
@@ -651,7 +649,7 @@ p {
     
                 @for $child from 1 through 16 {
                     &:nth-child(#{$child}){
-                        background-image: url("/img/services/serv#{$child}.svg");
+                        background-image: url('../img/services/serv#{$child}.svg');
                     }        
                 }
             }       
@@ -727,7 +725,7 @@ p {
 
                     &::after {
                         display: block;
-                        content: url("/img/company/Path.png");
+                        content: url("../img/company/Path.png");
                         width: 9px;
                         height: 14px;
                     }
@@ -771,7 +769,7 @@ p {
 
                         .slick-next {
                             right: 0;
-                            background: url('/img/company/arrow_next.svg') center center/285% no-repeat;
+                            background: url('../img/company/arrow_next.svg') center center/285% no-repeat;
                             border: none;
                             cursor: pointer;
                             box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.2);
@@ -783,7 +781,7 @@ p {
 
                         .slick-prev {
                             left: 0;
-                            background: url('/img/company/arrow_back.svg') center center/285% no-repeat;
+                            background: url('../img/company/arrow_back.svg') center center/285% no-repeat;
                             border: none;
                             cursor: pointer;
                             box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.2);
@@ -846,7 +844,7 @@ p {
 
                     &::after {
                         display: block;
-                        content: url("/img/company/Path.png");
+                        content: url("../img/company/Path.png");
                         width: 9px;
                         height: 14px;
                     }
@@ -854,8 +852,6 @@ p {
             }
         }
     }
-
-
 
     /*Strengths=============================================================================*/
 
